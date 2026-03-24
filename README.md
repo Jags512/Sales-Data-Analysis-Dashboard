@@ -28,4 +28,5 @@ This project analyzes sales data to extract insights such as revenue trends, top
 2. Run script:
    python scripts/analysis.py
 
-   ![Uploading dash sales.png…]()
+   <img width="1536" height="1024" alt="dash sales" src="https://github.com/user-attachments/assets/9b8ba08f-d9f5-4333-ad8e-de5fa024fdf8" />
+
