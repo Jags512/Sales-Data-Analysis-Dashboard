@@ -1,0 +1,10 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('../data/sales_data.csv')
+df['revenue'] = df['quantity'] * df['price']
+
+# Plot revenue by region
+df.groupby('region')['revenue'].sum().plot(kind='bar')
+plt.title("Revenue by Region")
+plt.show()
